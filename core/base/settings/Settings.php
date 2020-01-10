@@ -24,7 +24,7 @@ class Settings
         'user' => [
             'path' => 'core/user/controllers',
             'hrUrl' => true,
-            'routes' => []
+            'routes' => ["route"]
         ],
         'default' => [
             'controller' => 'IndexController',
